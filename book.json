@@ -4,13 +4,5 @@
     "author": "eValor",
     "generator": "site",
     "language": "zh-hans",
-    "gitbook": "3.x.x",
-    "plugins": [
-        "disqus"
-    ],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "evalor"
-        }
-    }
+    "gitbook": "3.x.x"
 }

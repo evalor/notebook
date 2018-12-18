@@ -1,8 +1,50 @@
 {
-    "title": "eValor's notebook",
-    "description": "a mysterious and interesting notebook",
+    "title": "灵魂笔记本",
+    "description": "这是一本失去了灵魂，可怜、无助，但不肥胖的笔记本！",
     "author": "eValor",
     "generator": "site",
     "language": "zh-hans",
-    "gitbook": "3.x.x"
+    "gitbook": "3.x.x",
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "links": {
+        "sidebar": {
+            "<i class='fa fa-fw fa-comments-o'></i>  <strong>EASWOOLE</strong>": "http://easyswoole.com"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-fontsettings",
+        "prism",
+        "prism-themes",
+        "edit-link",
+        "anchors",
+        "github",
+        "search-plus",
+        "expand-active-chapter",
+        "expandable-chapters-interactive",
+        "versions-select",
+        "theme-comscore",
+        "footer"
+    ],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/evalor/notebook/edit/master/",
+            "label": "涂改笔记"
+        },
+        "github": {
+            "url": "https://github.com/evalor/notebook"
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-vs.css"
+            ]
+        },
+        "layout": {
+            "footerPath": "styles/footer.html"
+        }
+    }
 }

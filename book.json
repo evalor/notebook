@@ -1,16 +1,20 @@
 {
     "title": "灵魂笔记本",
+    "seotitle": "PHP技术分享博客|SWOOLE|EASYSWOOLE|网站开发|扫地机器人的笔记本",
+    "keyword": "php|swoole|easyswoole|mysql|javascript|php博客",
     "description": "这是一本失去了灵魂，可怜、无助，但不肥胖的笔记本！",
     "author": "eValor",
     "generator": "site",
     "language": "zh-hans",
     "gitbook": "3.x.x",
-    "styles": {
-        "website": "styles/website.css"
-    },
-    "links": {
-        "sidebar": {
-            "<i class='fa fa-fw fa-comments-o'></i>  <strong>EASWOOLE</strong>": "http://easyswoole.com"
+    "intro": {
+        "avatar": "https://avatars1.githubusercontent.com/u/26944445",
+        "nickname": "eValor",
+        "content": "扫地机器人 No.Robot233",
+        "icons": {
+            "github": "https://github.com/evalor",
+            "qq": "http://wpa.qq.com/msgrd?v=3&uin=694050314&site=qq&menu=yes",
+            "email": "mipone@foxmail.com"
         }
     },
     "plugins": [
@@ -26,7 +30,7 @@
         "search-plus",
         "expand-active-chapter",
         "expandable-chapters-interactive",
-        "theme-comscore",
+        "theme-evalor",
         "footer"
     ],
     "pluginsConfig": {
@@ -39,11 +43,8 @@
         },
         "prism": {
             "css": [
-                "prism-themes/themes/prism-vs.css"
+                "gitbook-plugin-theme-evalor/_assets/prism/prism.css"
             ]
-        },
-        "layout": {
-            "footerPath": "styles/footer.html"
         }
     }
 }
